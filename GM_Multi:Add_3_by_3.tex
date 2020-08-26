@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ADDITION AND MULTIPLICATION HOMEWORK GENERATOR %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% SET DOCUMENT CLASSES AND PACKAGES %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}             % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+\usepackage[utf8]{inputenc}			% Packages for column separation
+\usepackage[english]{babel}
+ 
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}			% Determine the width between the columns
+
+
+% SET COMMAND FOR WHETHER THE DOCUMENT WILL BE ADDITION OR MULTIPLICATION
+
+\newcommand{\T}{+}
+%\renewcommand{\T}{x}  % Activate if you want multiplication, Comment out if you want addition
+
+\newcommand{\giantskip}{\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip}
+
+
+% RANDOM NUMBER GENERATOR
+\usepackage{tikz}
+\pgfmathsetseed{\number\pdfrandomseed}
+\newcommand*{\NewNumbers}{%
+   \pgfmathsetmacro{\A}{random(1,9)}
+   \pgfmathsetmacro{\B}{random(0,9)}
+   \pgfmathsetmacro{\C}{random(0,9)}
+   \pgfmathsetmacro{\D}{random(0,9)}
+   \pgfmathsetmacro{\E}{random(0,9)}
+   \pgfmathsetmacro{\F}{random(1,9)}}
+
+% CREATE DOCUMENT 
+\begin{document}
+\begin{LARGE}
+
+Name: \hfill Date:
+
+\end{LARGE}
+\bigskip
+\bigskip
+\begin{multicols}{4}	
+% Number of columns
+%\maketitle
+%\section{}
+%\subsection{}
+\begin{LARGE}
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\columnbreak
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\columnbreak
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\columnbreak
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+\giantskip
+
+\NewNumbers
+\begin{tabular}{cccc}
+  & \A & \B & \C \\
+\T & \F & \D & \E \\
+\hline
+\end{tabular}
+
+
+
+
+\end{LARGE}
+\end{multicols}
+\end{document}  +
